@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/font_1844417_1yli0fjj1my.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #topbar {
+            background-color: black;
+            color: white;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #topbar>p {
+            display: inline;
+        }
+
+        #topbar_right {
+            float: right;
+        }
+
+        #img_cart {
+            width: auto;
+            height: auto;
+            max-height: 1rem;
+        }
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topbar">
+        <a>小米商城</a><span>&nbsp;|&nbsp;</span>
+        <a>小米商城</a><span>&nbsp;|&nbsp;</span>
+        <a>小米商城</a><span>&nbsp;|&nbsp;</span>
+        <a>小米商城</a><span>&nbsp;|&nbsp;</span>
+        <a>小米商城</a><span>&nbsp;|&nbsp;</span>
+        <div id="topbar_right">
+            <a>登录</a><span>&nbsp;|&nbsp;</span>
+            <a>注册</a><span>&nbsp;|&nbsp;</span>
+            <!-- <img id="img_cart" src="./img/购物车.png" alt=""> -->
+            <!-- <a id="img_cart"></a> -->
+            <a>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-che" color="white"> </use>
+                </svg>
+                购物车
+            </a>
+        </div>
+    </div>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-che" color="red"></use>
+    </svg>
+</body>
+
+</html>
